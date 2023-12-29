@@ -1,2 +1,3 @@
 # Merge Shape Keys on Applied Modifiers Object
- Blender Python script
+Blender python script.
+Usually object applied modifiers cannot convert mesh while keeping construction of shape key.
