@@ -1,3 +1,11 @@
 # Merge Shape Keys on Applied Modifiers Object
-Blender python script.
-Usually object applied modifiers cannot convert mesh while keeping construction of shape key.
+Shape key を維持したままモディファイアを適用させたオブジェクトを生成してくれる Blender 用の python スクリプト。
+
+**※ このスクリプトは必ず作業ファイルを保存した後に実行してください、このスクリプトを使ったことによるメッシュデータの破損などの責任は負いかねます。**
+
+手順
+1. モディファイアを適用したいオブジェクトを選択する
+2. オブジェクトの shape key は Basic を選択した状態にする
+3. この python スクリプトを実行
+4. Shape key を維持したままモディファイアをマージされた "<選択したオブジェクト名>-base" というオブジェクトが生成される
+
